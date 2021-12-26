@@ -11,9 +11,7 @@
   <div class='calendar'>
     <% @get_week.each do |day| %>
       <div class='item'>
-        <div class='date'>
           <% day[:month] %>/<% day[:date] %>
-        </div>
         <ul class='content'>
             <li class='plan-list'> <% @plan %></li>
         </ul>
